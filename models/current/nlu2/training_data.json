@@ -1,0 +1,72 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "current",
+        "text": "now"
+      },
+      {
+        "intent": "current",
+        "text": "current"
+      },
+      {
+        "intent": "current",
+        "text": "present"
+      },
+      {
+        "intent": "current",
+        "text": "at present"
+      },
+      {
+        "intent": "current",
+        "text": "the moment"
+      },
+      {
+        "intent": "current",
+        "text": "this moment"
+      },
+      {
+        "intent": "open",
+        "text": "opening"
+      },
+      {
+        "intent": "open",
+        "text": "the opening"
+      },
+      {
+        "intent": "open",
+        "text": "starting"
+      },
+      {
+        "intent": "open",
+        "text": "the starting"
+      },
+      {
+        "intent": "open",
+        "text": "begining"
+      },
+      {
+        "intent": "open",
+        "text": "beginning"
+      },
+      {
+        "intent": "open",
+        "text": "the beginning"
+      },
+      {
+        "intent": "open",
+        "text": "morning"
+      },
+      {
+        "intent": "open",
+        "text": "the morning"
+      },
+      {
+        "intent": "open",
+        "text": "this morning"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

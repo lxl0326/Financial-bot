@@ -1,0 +1,1088 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "what's up"
+      },
+      {
+        "intent": "greet",
+        "text": "good  morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey sir"
+      },
+      {
+        "intent": "greet",
+        "text": "hi person"
+      },
+      {
+        "intent": "greet",
+        "text": "hey robot"
+      },
+      {
+        "intent": "greet",
+        "text": "hello bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Awesome. Talk to you later!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Thanks. Bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Awesome, bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "That's great. Goodbye."
+      },
+      {
+        "intent": "goodbye",
+        "text": "Perfect. Talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Thanks! Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Thank you very much. Talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Thanks a lot. Bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Thanks bot. Goodbye"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "BIDU",
+            "entity": "company"
+          }
+        ],
+        "text": "BIDU"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "BIDU",
+            "entity": "company"
+          }
+        ],
+        "text": "what about BIDU?"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "current",
+            "entity": "time_pointer"
+          }
+        ],
+        "text": "I said the current price."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "Tesla",
+            "entity": "company"
+          },
+          {
+            "start": 43,
+            "end": 53,
+            "value": "the moment",
+            "entity": "time_pointer"
+          }
+        ],
+        "text": "I want to know the stock value of Tesla at the moment."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "Amazon",
+            "entity": "company"
+          },
+          {
+            "start": 45,
+            "end": 55,
+            "value": "the moment",
+            "entity": "time_pointer"
+          }
+        ],
+        "text": "Can you tell me the stock price of Amazon in the moment."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "current",
+            "entity": "time_pointer"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "Bilibili",
+            "entity": "company"
+          }
+        ],
+        "text": "Tell me the current stock value of Bilibili?"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "current",
+            "entity": "time_pointer"
+          },
+          {
+            "start": 32,
+            "end": 41,
+            "value": "Pinduoduo",
+            "entity": "company"
+          }
+        ],
+        "text": "Look for current stock price of Pinduoduo."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Google",
+            "entity": "company"
+          },
+          {
+            "start": 28,
+            "end": 37,
+            "value": "right now",
+            "entity": "time_pointer"
+          }
+        ],
+        "text": "Tell me the price of Google right now."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "current",
+            "entity": "time_pointer"
+          },
+          {
+            "start": 34,
+            "end": 43,
+            "value": "Priceline",
+            "entity": "company"
+          }
+        ],
+        "text": "I need the current stock value of Priceline?"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "current",
+            "entity": "time_pointer"
+          },
+          {
+            "start": 30,
+            "end": 37,
+            "value": "Alibaba",
+            "entity": "company"
+          }
+        ],
+        "text": "What is the current shares of Alibaba?"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "current",
+            "entity": "time_pointer"
+          },
+          {
+            "start": 34,
+            "end": 41,
+            "value": "Tencent",
+            "entity": "company"
+          }
+        ],
+        "text": "How's the current share prices of Tencent?"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Google",
+            "entity": "company"
+          },
+          {
+            "start": 46,
+            "end": 55,
+            "value": "this time",
+            "entity": "time_pointer"
+          }
+        ],
+        "text": "Can you show me the share prices of Google at this time?"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "current",
+            "entity": "time_pointer"
+          },
+          {
+            "start": 38,
+            "end": 42,
+            "value": "TSLA",
+            "entity": "company"
+          }
+        ],
+        "text": "I wish to know current stock value of TSLA."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "Tesla",
+            "entity": "company"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "now",
+            "entity": "time_pointer"
+          }
+        ],
+        "text": "I want to know the stock value of Tesla now."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "Amazon",
+            "entity": "company"
+          }
+        ],
+        "text": "Can you tell me the stock price of Amazon."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "Bilibili",
+            "entity": "company"
+          }
+        ],
+        "text": "Tell me the stock value of Bilibili."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Google",
+            "entity": "company"
+          }
+        ],
+        "text": "Tell me the price of Google."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Pinduoduo",
+            "entity": "company"
+          }
+        ],
+        "text": "Look for stock price of Pinduoduo."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Google",
+            "entity": "company"
+          }
+        ],
+        "text": "Tell me the price of Google now."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "Priceline",
+            "entity": "company"
+          }
+        ],
+        "text": "I need the stock value of Priceline?"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "Alibaba",
+            "entity": "company"
+          }
+        ],
+        "text": "What is the shares of Alibaba?"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "Tencent",
+            "entity": "company"
+          }
+        ],
+        "text": "How's the share prices of Tencent?"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Google",
+            "entity": "company"
+          }
+        ],
+        "text": "Can you show me the share prices of Google?"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 30,
+            "end": 36,
+            "value": "Google",
+            "entity": "company"
+          }
+        ],
+        "text": "I wish to know stock value of Google."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "BIDU",
+            "entity": "company"
+          }
+        ],
+        "text": "the price of BIDU."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 25,
+            "end": 29,
+            "value": "BIDU",
+            "entity": "company"
+          }
+        ],
+        "text": "do you know the price of BIDU."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "opening",
+            "entity": "time_pointer"
+          },
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Ailbaba",
+            "entity": "company"
+          }
+        ],
+        "text": "Please tell me the opening price of Ailbaba."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "starting",
+            "entity": "time_pointer"
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "Google",
+            "entity": "company"
+          }
+        ],
+        "text": "Do you know the starting price of Google?"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 25,
+            "end": 29,
+            "value": "TSLA",
+            "entity": "company"
+          },
+          {
+            "start": 30,
+            "end": 42,
+            "value": "this morning",
+            "entity": "time_pointer"
+          }
+        ],
+        "text": "Do you know the price of TSLA this morning?"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "Google",
+            "entity": "company"
+          },
+          {
+            "start": 35,
+            "end": 47,
+            "value": "this morning",
+            "entity": "time_pointer"
+          }
+        ],
+        "text": "Do you know the price of Google in this morning?"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Amazon",
+            "entity": "company"
+          },
+          {
+            "start": 46,
+            "end": 57,
+            "value": "the opening",
+            "entity": "time_pointer"
+          }
+        ],
+        "text": "Can you tell you the stock price of Amazon at the opening."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "Amazon",
+            "entity": "company"
+          },
+          {
+            "start": 41,
+            "end": 52,
+            "value": "the opening",
+            "entity": "time_pointer"
+          }
+        ],
+        "text": "Do you know the stock price of Amazon at the opening."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "baidu",
+            "entity": "company"
+          },
+          {
+            "start": 34,
+            "end": 45,
+            "value": "the opening",
+            "entity": "time_pointer"
+          }
+        ],
+        "text": "Do you know the price of baidu at the opening"
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "opening",
+            "entity": "time_pointer"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "Google",
+            "entity": "company"
+          }
+        ],
+        "text": "Show me the opening price of Google."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Amazon",
+            "entity": "company"
+          },
+          {
+            "start": 31,
+            "end": 43,
+            "value": "the begining",
+            "entity": "time_pointer"
+          }
+        ],
+        "text": "Tell me the price of Amazon at the begining."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "opening",
+            "entity": "time_pointer"
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "TSLA",
+            "entity": "company"
+          }
+        ],
+        "text": "the opening price of TSLA."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "starting",
+            "entity": "time_pointer"
+          },
+          {
+            "start": 22,
+            "end": 26,
+            "value": "TSLA",
+            "entity": "company"
+          }
+        ],
+        "text": "the starting price of TSLA."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "begining",
+            "entity": "time_pointer"
+          },
+          {
+            "start": 22,
+            "end": 26,
+            "value": "TSLA",
+            "entity": "company"
+          }
+        ],
+        "text": "the begining price of TSLA."
+      },
+      {
+        "intent": "ask",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "TSLA",
+            "entity": "company"
+          },
+          {
+            "start": 18,
+            "end": 30,
+            "value": "this morning",
+            "entity": "time_pointer"
+          }
+        ],
+        "text": "the price of TSLA this morning."
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "Facebook",
+            "entity": "company"
+          },
+          {
+            "start": 45,
+            "end": 53,
+            "value": "2018.2.9",
+            "entity": "start_time"
+          },
+          {
+            "start": 57,
+            "end": 65,
+            "value": "2018.7.5",
+            "entity": "end_time"
+          }
+        ],
+        "text": "show me the historical data of Facebook from 2018.2.9 to 2018.7.5"
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 38,
+            "end": 43,
+            "value": "Apple",
+            "entity": "company"
+          },
+          {
+            "start": 49,
+            "end": 57,
+            "value": "2018.5.9",
+            "entity": "start_time"
+          },
+          {
+            "start": 61,
+            "end": 69,
+            "value": "2018.8.1",
+            "entity": "end_time"
+          }
+        ],
+        "text": "I want to know the historical data of Apple from 2018.5.9 to 2018.8.1"
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 40,
+            "end": 47,
+            "value": "Netflix",
+            "entity": "company"
+          },
+          {
+            "start": 53,
+            "end": 61,
+            "value": "2018.7.3",
+            "entity": "start_time"
+          },
+          {
+            "start": 65,
+            "end": 73,
+            "value": "2018.8.2",
+            "entity": "end_time"
+          }
+        ],
+        "text": "Can you tell me the past information of Netflix from 2018.7.3 to 2018.8.2?"
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Siemens",
+            "entity": "company"
+          },
+          {
+            "start": 45,
+            "end": 53,
+            "value": "2017.8.5",
+            "entity": "start_time"
+          },
+          {
+            "start": 57,
+            "end": 67,
+            "value": "2017.12.21",
+            "entity": "end_time"
+          }
+        ],
+        "text": "I need the historical values of Siemens from 2017.8.5 to 2017.12.21"
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "Momo",
+            "entity": "company"
+          },
+          {
+            "start": 41,
+            "end": 49,
+            "value": "2018.1.2",
+            "entity": "start_time"
+          },
+          {
+            "start": 53,
+            "end": 61,
+            "value": "2018.3.2",
+            "entity": "end_time"
+          }
+        ],
+        "text": "show me the historical plot of Momo from 2018.1.2 to 2018.3.2"
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Walmart",
+            "entity": "company"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "2018.5.2",
+            "entity": "start_time"
+          },
+          {
+            "start": 45,
+            "end": 53,
+            "value": "2018.6.1",
+            "entity": "end_time"
+          }
+        ],
+        "text": "Show me the plot of Walmart from 2018.5.2 to 2018.6.1"
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "Target",
+            "entity": "company"
+          },
+          {
+            "start": 40,
+            "end": 48,
+            "value": "2018.2.5",
+            "entity": "start_time"
+          },
+          {
+            "start": 52,
+            "end": 60,
+            "value": "2018.5.3",
+            "entity": "time"
+          }
+        ],
+        "text": "can you show me the plot of Target from 2018.2.5 to 2018.5.3?"
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "Facebook",
+            "entity": "company"
+          },
+          {
+            "start": 43,
+            "end": 51,
+            "value": "2018.7.5",
+            "entity": "end_time"
+          },
+          {
+            "start": 57,
+            "end": 65,
+            "value": "2018.2.9",
+            "entity": "start_time"
+          }
+        ],
+        "text": "show me the historical data of Facebook to 2018.7.5 from 2018.2.9"
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 38,
+            "end": 43,
+            "value": "Apple",
+            "entity": "company"
+          },
+          {
+            "start": 47,
+            "end": 55,
+            "value": "2018.8.1",
+            "entity": "end_time"
+          },
+          {
+            "start": 61,
+            "end": 69,
+            "value": "2018.5.9",
+            "entity": "start_time"
+          }
+        ],
+        "text": "I want to know the historical data of Apple to 2018.8.1 from 2018.5.9"
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 40,
+            "end": 47,
+            "value": "Netflix",
+            "entity": "company"
+          },
+          {
+            "start": 51,
+            "end": 59,
+            "value": "2018.8.2",
+            "entity": "end_time"
+          },
+          {
+            "start": 65,
+            "end": 73,
+            "value": "2018.7.3",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Can you tell me the past information of Netflix to 2018.8.2 from 2018.7.3?"
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Siemens",
+            "entity": "company"
+          },
+          {
+            "start": 43,
+            "end": 53,
+            "value": "2017.12.21",
+            "entity": "end_time"
+          },
+          {
+            "start": 59,
+            "end": 67,
+            "value": "2017.8.5",
+            "entity": "start_time"
+          }
+        ],
+        "text": "I need the historical values of Siemens to 2017.12.21 from 2017.8.5"
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "Momo",
+            "entity": "company"
+          },
+          {
+            "start": 39,
+            "end": 47,
+            "value": "2018.3.2",
+            "entity": "end_time"
+          },
+          {
+            "start": 53,
+            "end": 61,
+            "value": "2018.1.2",
+            "entity": "start_time"
+          }
+        ],
+        "text": "show me the historical plot of Momo to 2018.3.2 from 2018.1.2"
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Walmart",
+            "entity": "company"
+          },
+          {
+            "start": 31,
+            "end": 39,
+            "value": "2018.6.1",
+            "entity": "end_time"
+          },
+          {
+            "start": 45,
+            "end": 53,
+            "value": "2018.5.2",
+            "entity": "start_time"
+          }
+        ],
+        "text": "Show me the plot of Walmart to 2018.6.1 from 2018.5.2"
+      },
+      {
+        "intent": "history",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "Target",
+            "entity": "company"
+          },
+          {
+            "start": 38,
+            "end": 46,
+            "value": "2018.5.3",
+            "entity": "time"
+          },
+          {
+            "start": 52,
+            "end": 60,
+            "value": "2018.2.5",
+            "entity": "start_time"
+          }
+        ],
+        "text": "can you show me the plot of Target to 2018.5.3 from 2018.2.5?"
+      },
+      {
+        "intent": "ask_function",
+        "text": "what can you do for me?"
+      },
+      {
+        "intent": "ask_function",
+        "text": "what do you know?"
+      },
+      {
+        "intent": "ask_function",
+        "text": "what is your function?"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

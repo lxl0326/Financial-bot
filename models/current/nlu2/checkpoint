@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/lxl/IdeaProjects/robot/models/current/nlu2/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/lxl/IdeaProjects/robot/models/current/nlu2/intent_classifier_tensorflow_embedding.ckpt"
